@@ -40,7 +40,7 @@ public class TestClassA {
     public void test2()
     {
         String str=driver.getTitle();
-        Assert.assertEquals(str,"Google`1");
+        Assert.assertEquals(str,"Google");
     }
 
 
@@ -48,7 +48,7 @@ public class TestClassA {
     public void test()
     {
         String str=driver.getTitle();
-        Assert.assertEquals(str,"");
+        Assert.assertEquals(str,"Google");
     }
 
     @AfterClass
